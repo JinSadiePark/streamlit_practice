@@ -9,7 +9,7 @@ url = 'https://github.com/esnt/Data/raw/main/Names/popular_names.csv'
 
 df = pd.read_csv(url)
 
-selected_name = st.text_input('Enter a name', 'John') #First field is prompt, second field is default
+selected_name = st.text_input('Enter a name', 'Jinkyung') #First field is prompt, second field is default
 
 name_df = df[df['name'] == selected_name]
 
